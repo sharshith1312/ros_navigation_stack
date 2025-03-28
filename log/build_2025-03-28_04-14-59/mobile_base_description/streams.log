@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description': /usr/bin/cmake /home/sharshith/Downloads/AdvancedProject/ros2_ws/src/mobile_base_description -DCMAKE_INSTALL_PREFIX=/home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description
+[1.574s] -- The C compiler identification is GNU 13.3.0
+[2.843s] -- The CXX compiler identification is GNU 13.3.0
+[3.055s] -- Detecting C compiler ABI info
+[3.419s] -- Detecting C compiler ABI info - done
+[3.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.434s] -- Detecting C compile features
+[3.448s] -- Detecting C compile features - done
+[3.529s] -- Detecting CXX compiler ABI info
+[3.742s] -- Detecting CXX compiler ABI info - done
+[3.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.754s] -- Detecting CXX compile features
+[3.755s] -- Detecting CXX compile features - done
+[3.768s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[3.768s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.768s]   has asked CMake to find a package configuration file provided by
+[3.768s]   "ament_cmake", but CMake did not find one.
+[3.769s] 
+[3.769s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.769s]   any of the following names:
+[3.769s] 
+[3.769s]     ament_cmakeConfig.cmake
+[3.769s]     ament_cmake-config.cmake
+[3.769s] 
+[3.769s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.770s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.770s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.770s]   has been installed.
+[3.770s] 
+[3.770s] [0m
+[3.770s] -- Configuring incomplete, errors occurred!
+[3.773s] Invoked command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description' returned '1': /usr/bin/cmake /home/sharshith/Downloads/AdvancedProject/ros2_ws/src/mobile_base_description -DCMAKE_INSTALL_PREFIX=/home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description

@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description -- -j4 -l4
+[0.060s] Invoked command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description -- -j4 -l4
+[0.072s] Invoking command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description
+[0.081s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description//urdf
+[0.082s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description//urdf/mobile_base.urdf
+[0.082s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description//launch
+[0.082s] -- Installing: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description//launch/display.launch.xml
+[0.083s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/ament_index/resource_index/package_run_dependencies/mobile_base_description
+[0.083s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/ament_index/resource_index/parent_prefix_path/mobile_base_description
+[0.083s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/environment/path.sh
+[0.084s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/environment/path.dsv
+[0.084s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/local_setup.bash
+[0.084s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/local_setup.sh
+[0.084s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/local_setup.zsh
+[0.084s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/local_setup.dsv
+[0.084s] -- Installing: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/package.dsv
+[0.085s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/ament_index/resource_index/packages/mobile_base_description
+[0.085s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig.cmake
+[0.085s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/cmake/mobile_base_descriptionConfig-version.cmake
+[0.085s] -- Up-to-date: /home/sharshith/Downloads/AdvancedProject/ros2_ws/install/mobile_base_description/share/mobile_base_description/package.xml
+[0.087s] Invoked command in '/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description
