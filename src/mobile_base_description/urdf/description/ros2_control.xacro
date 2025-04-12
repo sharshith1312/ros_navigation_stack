@@ -58,8 +58,8 @@
 
     <gazebo>
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-            <parameters>$(find cps_rmp220_support)/config/my_controllers.yaml</parameters>
-            <parameters>$(find cps_rmp220_support)/config/gaz_ros2_ctl_use_sim.yaml</parameters>
+            <parameters>$(find mobile_base_description)/urdf/config/my_controllers.yaml</parameters>
+            <parameters>$(find mobile_base_description)/urdf/config/gaz_ros2_ctl_use_sim.yaml</parameters>
         </plugin>
     </gazebo>
 
