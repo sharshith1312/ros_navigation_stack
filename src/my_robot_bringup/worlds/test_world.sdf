@@ -67,7 +67,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='box'>
-      <pose>2.0577700000000001 1.32413 0.5 6.2287699999999997e-22 9.3279700000000006e-22 -3.63155e-22</pose>
+      <pose>1.0714828991775205 2.005966492843414 0.49999999990199806 6.2287739151293738e-22 9.3279666454713669e-22 -3.6315533669320137e-22</pose>
       <link name='box_link'>
         <inertial>
           <inertia>
@@ -113,34 +113,83 @@
       <static>false</static>
       <self_collide>false</self_collide>
     </model>
+    <model name='cylinder'>
+      <pose>-1.6931180214236572 -1.8296001697778659 0.49999942638036005 1.5750491057968012e-19 -6.4218046237399094e-20 2.2288050855520273e-20</pose>
+      <link name='cylinder_link'>
+        <inertial>
+          <inertia>
+            <ixx>0.14580000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.14580000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.125</izz>
+          </inertia>
+          <mass>1</mass>
+          <pose>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='cylinder_collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode/>
+            </friction>
+            <bounce/>
+            <contact/>
+          </surface>
+        </collision>
+        <visual name='cylinder_visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.300000012 0.300000012 0.300000012 1</ambient>
+            <diffuse>0.699999988 0.699999988 0.699999988 1</diffuse>
+            <specular>1 1 1 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
     <include>
-      <uri>file:///home/ed/.gz/fuel/fuel.gazebosim.org/openrobotics/models/dining table/1</uri>
-      <name>DiningTable</name>
-      <pose>1.7896966934204102 -2.26169753074646 0 0 0 1.5561600286169426</pose>
-    </include>
-    <include>
-      <uri>file:///home/ed/.gz/fuel/fuel.gazebosim.org/openrobotics/models/office chair/1</uri>
-      <name>OfficeChair</name>
-      <pose>1.4984417492125761 -3.0868733924952565 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/ed/.gz/fuel/fuel.gazebosim.org/openrobotics/models/turtle/5</uri>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/turtle/5</uri>
       <name>turtle</name>
-      <pose>0.33651575199442313 1.7020069861940446 0.064999995881915018 1.639504133021927e-17 7.1287872369037472e-07 8.6268262238017308e-17</pose>
+      <pose>-1.8723949112465601 1.3233414034083268 0.064999374946382971 1.0867723611123119e-17 -7.7210624529580834e-07 1.1223142909713786e-16</pose>
+    </include>
+    <include>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/dining table/1</uri>
+      <name>DiningTable</name>
+      <pose>1.8225573301315308 -2.9536843299865723 -0.011485997587442398 -0.031677998035516144 -0.052368000477301835 1.5761799533251362</pose>
+    </include>
+    <include>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/office chair/1</uri>
+      <name>OfficeChair</name>
+      <pose>1.7631599903106689 -3.9909424781799316 0 0 0 0</pose>
     </include>
     <model name='shelf_big_movai'>
       <link name='link'>
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/ed/Documents/shelf/meshes/shelf_big_movai.dae</uri>
+              <uri>file:///home/sharshith/Downloads/shelf/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/ed/Documents/shelf/meshes/shelf_big_movai.dae</uri>
+              <uri>file:///home/sharshith/Downloads/shelf/meshes/shelf_big_movai.dae</uri>
             </mesh>
           </geometry>
         </collision>
@@ -159,14 +208,24 @@
         </inertial>
         <enable_wind>false</enable_wind>
       </link>
-      <pose>-0.17590091651825854 3.5267920839199118 -1.9048325422084724e-07 -4.0726606937079708e-08 -1.8783315022907948e-08 4.6186859305434979e-12</pose>
+      <pose>2.9561824261411092 4.3369839208776817 0.0050587515349721475 1.5946029433557657e-07 -0.00056028066578987551 -0.0037314768800952801</pose>
       <static>false</static>
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>file:///home/ed/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
       <name>grey_wall</name>
-      <pose>8.3631153106689453 -1.4097086191177368 0 0 0 1.5436200454893385</pose>
+      <pose>8.39385986328125 2.0167300701141357 0 0 0 1.5672409010882753</pose>
+    </include>
+    <include>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_0</name>
+      <pose>4.8764767646789551 -8.8507795333862305 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/sharshith/.gz/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1</name>
+      <pose>8.6109209060668945 -5.5208725929260254 0 0 0 1.5461400483184644</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
@@ -177,9 +236,9 @@
       <specular>0.200000003 0.200000003 0.200000003 1</specular>
       <attenuation>
         <range>1000</range>
-        <linear>0.0099999997764825821</linear>
-        <constant>0.89999997615814209</constant>
-        <quadratic>0.0010000000474974513</quadratic>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
       </attenuation>
       <spot>
         <inner_angle>0</inner_angle>

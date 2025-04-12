@@ -1,9 +1,0 @@
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/uninstall.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/mobile_base_description_uninstall.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/test.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/edit_cache.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/rebuild_cache.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/list_install_components.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/install.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/install/local.dir
-/home/sharshith/Downloads/AdvancedProject/ros2_ws/build/mobile_base_description/CMakeFiles/install/strip.dir

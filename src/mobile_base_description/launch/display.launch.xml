@@ -1,8 +1,15 @@
 <launch>
-    <let name="urdf_path" 
-         value="$(find-pkg-share mobile_base_description)/urdf/my_robot.urdf.xacro" />
-    <let name="rviz_config_path"
-         value="$(find-pkg-share mobile_base_description)/rviz/urdf_config.rviz" />
+    <!-- <let name="urdf_path" 
+         value="$(find-pkg-share mobile_base_description)/urdf/my_robot.urdf.xacro" /> -->
+
+     <let name="urdf_path" 
+         value="$(find-pkg-share mobile_base_description)/urdf/description/robot.urdf.xacro" />
+     
+    <!-- <let name="rviz_config_path"
+         value="$(find-pkg-share mobile_base_description)/rviz/urdf_config.rviz" /> -->
+     
+     <let name="rviz_config_path"
+         value="$(find-pkg-share mobile_base_description)/rviz/segway_urdf_config.rviz" />
 
     <!-- create a node robot state piublisher to publish to tf (transform) takes 2 parameters one robot
     sttate description (urdf file) and joint_states (movement of wheels eg) -->

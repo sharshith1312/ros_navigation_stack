@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    <xacro:arg name="camera_name"   default="oak" />
+    <xacro:arg name="camera_model"  default="OAK-D" />
+    <xacro:arg name="base_frame"    default="oak-d_frame" />
+    <xacro:arg name="parent_frame"  default="oak-d-base-frame" />
+    <xacro:arg name="cam_pos_x"     default="0.0" />
+    <xacro:arg name="cam_pos_y"     default="0.0" />
+    <xacro:arg name="cam_pos_z"     default="0.0" />
+    <xacro:arg name="cam_roll"      default="0.0" />
+    <xacro:arg name="cam_pitch"     default="0.0" />
+    <xacro:arg name="cam_yaw"       default="0.0" />
+
+    <xacro:include filename="$(find depthai_descriptions)/urdf/include/depthai_macro.urdf.xacro"/>
+
+    <link name="$(arg parent_frame)"/>
+    <xacro:depthai_camera camera_name = "$(arg camera_name)" parent = "$(arg parent_frame)" camera_model = "$(arg camera_model)" base_frame = "$(arg base_frame)" cam_pos_x = "$(arg cam_pos_x)" cam_pos_y = "$(arg cam_pos_y)" cam_pos_z = "$(arg cam_pos_z)" cam_roll = "$(arg cam_roll)" cam_pitch = "$(arg cam_pitch)" cam_yaw = "$(arg cam_yaw)"/>
+
+    <xacro:arg name="has_imu"       default="false" />
+
+    <!-- <xacro:include filename="$(find depthai_descriptions)/urdf/include/base_macro.urdf.xacro"/> -->
+
+    <!-- <link name="$(arg parent_frame)"/> -->
+    <!-- <xacro:base camera_name = "$(arg camera_name)" parent = "$(arg parent_frame)" camera_model = "$(arg camera_model)" base_frame = "$(arg base_frame)" cam_pos_x = "$(arg cam_pos_x)" cam_pos_y = "$(arg cam_pos_y)" cam_pos_z = "$(arg cam_pos_z)" cam_roll = "$(arg cam_roll)" cam_pitch = "$(arg cam_pitch)" cam_yaw = "$(arg cam_yaw)" has_imu="$(arg has_imu)"/> -->
+
+    <joint name="oak-d-base-joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="oak-d-base-frame"/>
+        <origin xyz="${chassis_length/2 + 0.010} 0 ${chassis_height/2 - 0.010}" rpy="0 0 0"/>
+    </joint>
+
+
+    <!-- <link name="oak-d-base-frame">
+    </link> -->
+
+</robot>
