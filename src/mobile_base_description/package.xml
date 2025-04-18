@@ -8,11 +8,24 @@
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- <build_depend>isaac_ros_common</build_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>isaac_ros_launch_utils</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>hawk_description</exec_depend>
+  <exec_depend>owl_description</exec_depend>
+  <exec_depend>pandar_xt32_description</exec_depend>
+  <exec_depend>rplidar_s2e_description</exec_depend> -->
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+  <!-- <test_depend>isaac_ros_test</test_depend> -->
 
   <export>
     <build_type>ament_cmake</build_type>
   </export>
+
 </package>

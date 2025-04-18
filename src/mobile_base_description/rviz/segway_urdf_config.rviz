@@ -3,9 +3,7 @@ Panels:
     Help Height: 70
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /TF1/Frames1
-        - /TF1/Tree1
+      Expanded: ~
       Splitter Ratio: 0.5
     Tree Height: 228
   - Class: rviz_common/Views
@@ -52,39 +50,50 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        base_footprint:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        caster_wheel:
+        caster_swivel_left:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        chassis:
+        caster_swivel_right:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        laser_frame:
+        caster_wheel_left:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        left_wheel:
+        caster_wheel_right:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        right_wheel:
+        chassis_imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        nova_carter:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        nova_carter_caster_frame_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wheel_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wheel_right:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -104,21 +113,25 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_footprint:
-          Value: true
         base_link:
           Value: true
-        caster_wheel:
+        caster_swivel_left:
           Value: true
-        chassis:
+        caster_swivel_right:
           Value: true
-        imu_link:
+        caster_wheel_left:
           Value: true
-        laser_frame:
+        caster_wheel_right:
           Value: true
-        left_wheel:
+        chassis_imu:
           Value: true
-        right_wheel:
+        nova_carter:
+          Value: true
+        nova_carter_caster_frame_base:
+          Value: true
+        wheel_left:
+          Value: true
+        wheel_right:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -127,18 +140,19 @@ Visualization Manager:
       Show Names: false
       Tree:
         base_link:
-          base_footprint:
+          chassis_imu:
             {}
-          chassis:
-            caster_wheel:
+          nova_carter:
+            nova_carter_caster_frame_base:
+              caster_swivel_left:
+                caster_wheel_left:
+                  {}
+              caster_swivel_right:
+                caster_wheel_right:
+                  {}
+            wheel_left:
               {}
-            imu_link:
-              {}
-            laser_frame:
-              {}
-            left_wheel:
-              {}
-            right_wheel:
+            wheel_right:
               {}
       Update Interval: 0
       Value: true
@@ -157,25 +171,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.7000000476837158
+      Distance: 2.0719356536865234
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 2.980232238769531e-07
-        Y: -2.980232238769531e-07
-        Z: 3.5762786865234375e-07
+        X: 0
+        Y: 0
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3100014925003052
+      Pitch: 0.2350006103515625
       Target Frame: <Fixed Frame>
-      Value: Orbit (rviz_default_plugins)
-      Yaw: 3.2400169372558594
+      Value: Orbit (rviz)
+      Yaw: 4.5700201988220215
     Saved: ~
 Window Geometry:
   Displays:
