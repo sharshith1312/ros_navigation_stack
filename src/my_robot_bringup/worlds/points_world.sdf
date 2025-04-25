@@ -1,0 +1,99 @@
+
+<sdf version="1.10">
+  <world name="empty">
+    <!-- Plugins -->
+    <plugin name="gz::sim::systems::SceneBroadcaster" filename="gz-sim-scene-broadcaster-system"/>
+    <plugin name="gz::sim::systems::UserCommands" filename="gz-sim-user-commands-system"/>
+    <plugin name="gz::sim::systems::Physics" filename="gz-sim-physics-system"/>
+    
+    <!-- Ground plane -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/ground plane</uri>
+    </include>
+
+    <!-- Light -->
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="wp_marker_0">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+    </model>
+
+    <!-- Waypoint markers (green spheres) -->
+    <model name="wp_marker_1">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>-3.0 0.3 0.05 0 0 0</pose>
+    </model>
+
+    <model name="wp_marker_2">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>-1.0 4.5 0.05 0 0 0</pose>
+    </model>
+
+    <model name="wp_marker_3">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>2.0 4.5 0.05 0 0 0</pose>
+    </model>
+
+    <model name="wp_marker_4">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>7.0 1.0 0.05 0 0 0</pose>
+    </model>
+
+    <model name="wp_marker_5">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>4.0 -8.0 0.05 0 0 0</pose>
+    </model>
+
+    <model name="wp_marker_6">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><sphere><radius>0.07</radius></sphere></geometry>
+          <material><ambient>0 1 0 1</ambient></material>
+        </visual>
+      </link>
+      <pose>-2.0 -6.0 0.05 0 0 0</pose>
+    </model>
+  </world>
+</sdf>
